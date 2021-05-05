@@ -100,6 +100,36 @@ La sezione news permette di gestire la parte di notizie dell'applicazione client
 
 ## Applicazione per la gestione delle notifiche push
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+L'applicazione per la gestione delle notifiche push è una Web App che permette di visualizzare i dispositivi connessi all'applicazione cliente e inviare notifiche mirate ad un dispositivo o gruppo di dispositivi.
+
+Come funzionano le notifiche push?
+Ogni dispositivo connesso all'applicazione cliente possiede un token (codice identificativo) univoco, il servizio Firebase Cloud Messaging permette di inviare una notifica push ad un dispositivo indirizzando direttamente la notifica grazie al token del dispositivo. 
+
+Ogni dispositivo, nel momento in cui effettua la connessione all'applicazione invia il token del dispositivo ad un server che salva il token del dispositivo e per ogni token viene salvato anche il cliente e il locale attualmente connesso, le modifiche al cliente o al locale comportano una nuova richiesta al server e un update dei dati connessi al token. 
+
+Grazie a questo sistema possiamo collegare ogni token al cliente e locale attualmente attivo, e quindi a tutte le informazioni relative al cliente e al locale.
+
+**Lista dispositivi**
+In questa sezione è disponibile la lista di tutti i token salvati nel server con informazioni relative al locale e cliente connesso, le operazioni disponibili in questa sezione sono:
+- ricerca avanzata fra tutti i dispositivi
+- invio di un messaggio ad un singolo token
+- invio di messaggi a molteplici token
+
+**Analisi**
+In questa sezione è possibile eseguire delle query di ricerca dei dispositivi connessi, una query di ricerca ha l'obiettivo di classificare una parte di dispositivi con alcune caratteristiche in comune. 
+
+Le query di ricerca possono essere salvate dando vita a dei gruppi di dispositivi.
+
+**Gruppi**
+In questa sezione sono disponibili tutti i gruppi creati, ogni gruppo è caratterizzato da un titolo, una descrizione e una query.
+
+Selezionando un gruppo è possibile inviare una notifica push a tutti i dispositivi che rientrano nella query di ricerca del gruppo.
+
+Ogni gruppo ha un insieme di keywords che corrispondono ai campi estratti dalla query, nella creazione della notifica è possibile utilizzare queste keywords che verranno sostituite in fase di invio con l'informazione specifica del token, l'unica keyword sempre necessaria è token. 
+
+E' possibile combinare più gruppi se hanno tutte le keywords in comune.
+
+
+
 
 
