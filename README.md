@@ -110,17 +110,20 @@ Ogni dispositivo, nel momento in cui effettua la connessione all'applicazione in
 Grazie a questo sistema possiamo collegare ogni token al cliente e locale attualmente attivo, e quindi a tutte le informazioni relative al cliente e al locale.
 
 **Lista dispositivi**
+
 In questa sezione è disponibile la lista di tutti i token salvati nel server con informazioni relative al locale e cliente connesso, le operazioni disponibili in questa sezione sono:
 - ricerca avanzata fra tutti i dispositivi
 - invio di un messaggio ad un singolo token
 - invio di messaggi a molteplici token
 
 **Analisi**
+
 In questa sezione è possibile eseguire delle query di ricerca dei dispositivi connessi, una query di ricerca ha l'obiettivo di classificare una parte di dispositivi con alcune caratteristiche in comune. 
 
 Le query di ricerca possono essere salvate dando vita a dei gruppi di dispositivi.
 
 **Gruppi**
+
 In questa sezione sono disponibili tutti i gruppi creati, ogni gruppo è caratterizzato da un titolo, una descrizione e una query.
 
 Selezionando un gruppo è possibile inviare una notifica push a tutti i dispositivi che rientrano nella query di ricerca del gruppo.
