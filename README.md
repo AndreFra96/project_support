@@ -18,7 +18,7 @@ L'accesso all'app viene mantenuto anche in seguito alla chiusura completa dell'a
 
 Ogni accesso come nuova società viene salvato in una cache per proporre al cliente l'accesso diretto tramite bottone per tutte le società con le quali ha effettuato l'accesso.
 
-**Gestione utenti**
+### Gestione utenti
 
 All'interno dell'app nella sezione amministrazione esiste la possibilità per il cliente di creare diversi utenti, gli utenti sono di due tipi: utenti generici e utenti legati ad un locale.
 
@@ -30,13 +30,13 @@ Gli utenti generici possono effettuare l'accesso in tutte le istanze dell'app co
 *utenti legati ad un locale:*
 Gli utenti generici possono effettuare l'accesso solo nelle istanze dell'app connesse con la società relativa all'utente, nella quale il locale selezionato corrisponde con il locale di competenza dell'utente.
 
-**Amministrazione**
+### Amministrazione
 
 L'utente unico iniziale o gli utenti indicati come amministratori hanno accesso alla sezione amministrazione dell'app, la sezione amministrazione permette di:
 - modificare le credenziali di accesso all'app
 - gestire gli utenti
 
-**Chat**
+### Chat
 
 La chat è parte essenziale dell'applicazione cliente e canale principale di comunicazione fra cliente e RCA SRL, semplicemente scrivendo un messaggio in chat viene avviata una sessione di conversazione fra dispositivo e applicazione backend, l'inizio di una conversazione e unidirezionale da parte del cliente.
 
@@ -44,11 +44,11 @@ Funzionalità della chat:
 - Invio di messaggi di testo
 - Invio di immagini
 
-**Contratto**
+### Contratto
 
 La sezione contratto contiene tutte le informazioni riguardo ai servizi attivi, suddivisi per tipologia di servizio (annuale, mensile, biennale, 31/12, prestiti)
 
-**News**
+### News
 
 La sezione news contiene informazioni e notizie riguardo i prodotti venduti da RCA, questa sezione non prevede l'accesso dell'utente ed è quindi di libera visualizzazione dopo aver effettuato l'accesso all'app.
 
@@ -65,21 +65,21 @@ Notizie selezionate in base al profilo del locale connesso, permette di fornire 
 
 l'applicazione backend è un software multipiattaforma (iOS, Android, Web) dedicato al team di assistenza di RCA.
 
-**Accesso all'app**
+### Accesso all'app
 
 L'accesso all'applicazione backend prevede l'utilizzo di email e password come credenziali di accesso (generate manualmente su richiesta).
 
 L'email di accesso deve corrispondere alla email utilizzata per accedere a t-order poichè grazie ad essa vengono estratte le informazioni sull'utente attualmente connesso.
 
-**Chat personali**
+### Chat personali
 
 Questa sezione contiene la lista di tutte le chat attualmente attive dell'utente connesso, selezionando una chat è possibile aprire la chatroom e comunicare con l'applicazione cliente selezionata.
 
-**Chat generale**
+### Chat generale
 
 Questa sezione contiene la lista di tutte le chat non assegnate o assegnate ad altri utenti rispetto a quello attualmento connesso, selezionando una chat è possibile aprire la chatroom e comunicare con l'applicazione cliente selezionata.
 
-**Chatroom**
+### Chatroom
 
 La chatroom è accessibile selezionando una conversazione.
 
@@ -88,7 +88,7 @@ Funzionalita:
 - Invio di immagini
 - Informazioni sul cliente: all'interno della chatroom è disponibile una sezione con le informazioni sul cliente che ha avviato la chat e informazioni sul locale attualmente attivo nell'applicazione cliente
 
-**News**
+### News
 
 La sezione news permette di gestire la parte di notizie dell'applicazione cliente, all'interno di questa sezione è possibile:
 - creare una nuova notizia
@@ -109,20 +109,20 @@ Ogni dispositivo, nel momento in cui effettua la connessione all'applicazione in
 
 Grazie a questo sistema possiamo collegare ogni token al cliente e locale attualmente attivo, e quindi a tutte le informazioni relative al cliente e al locale.
 
-**Lista dispositivi**
+### Lista dispositivi
 
 In questa sezione è disponibile la lista di tutti i token salvati nel server con informazioni relative al locale e cliente connesso, le operazioni disponibili in questa sezione sono:
 - ricerca avanzata fra tutti i dispositivi
 - invio di un messaggio ad un singolo token
 - invio di messaggi a molteplici token
 
-**Analisi**
+### Analisi
 
 In questa sezione è possibile eseguire delle query di ricerca dei dispositivi connessi, una query di ricerca ha l'obiettivo di classificare una parte di dispositivi con alcune caratteristiche in comune. 
 
 Le query di ricerca possono essere salvate dando vita a dei gruppi di dispositivi.
 
-**Gruppi**
+### Gruppi
 
 In questa sezione sono disponibili tutti i gruppi creati, ogni gruppo è caratterizzato da un titolo, una descrizione e una query.
 
