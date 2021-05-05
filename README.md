@@ -10,7 +10,7 @@ RCA Support è un progetto nato per strutturare il servizio di assistenza client
 
 L'applicazione cliente è un software multipiattaforma (iOS, Android, Web) dedicato alle aziende che acquistano prodotti di qualsiasi genere forniti da RCA.
 
-**Accesso all'app**
+### Accesso all'app
 
 L'accesso all'app prevede l'utilizzo di credenziali univoche per società, le credenziali  di accesso si compongono dalla partita iva della società e da una password che inizialmente è il codice cliente interno ed è possibile modificare in seguito.
 
