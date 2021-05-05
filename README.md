@@ -46,7 +46,7 @@ Funzionalità della chat:
 
 **Contratto**
 
-La sezione contratto contiene tutte le informazioni riguardo ai servizi attivi, suddivisi per tipologia di servizio (annuale, mensile, 31/12, prestiti)
+La sezione contratto contiene tutte le informazioni riguardo ai servizi attivi, suddivisi per tipologia di servizio (annuale, mensile, biennale, 31/12, prestiti)
 
 **News**
 
@@ -89,6 +89,13 @@ Funzionalita:
 - Informazioni sul cliente: all'interno della chatroom è disponibile una sezione con le informazioni sul cliente che ha avviato la chat e informazioni sul locale attualmente attivo nell'applicazione cliente
 
 **News**
+
+La sezione news permette di gestire la parte di notizie dell'applicazione cliente, all'interno di questa sezione è possibile:
+- creare una nuova notizia
+- modificare una notizia esistente
+- cancellare una notizia
+- assegnare un profilo ad una notizia
+- modificare l'ordine delle notizie
 
 
 ## Applicazione per la gestione delle notifiche push
